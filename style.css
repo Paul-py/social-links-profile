@@ -1,2 +1,30 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+     font-size: 11px; text-align: center;
+     }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#img {
+    border-radius: 50px;
+}
+
+
