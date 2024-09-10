@@ -32,16 +32,19 @@ img {
 }
 
 h1 {
-    font-size: 25px;
-    margin-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 0px;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 12px;
+    color: rgb(180, 180, 0);
+    margin-top: 0px;
 }
 
 .buttons{
     background-color: rgb(40, 40, 40);
     padding: 10px;
     border-radius: 8px;
+    /* font-size: 12px; */
 }
