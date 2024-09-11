@@ -18,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(20, 20, 20);
-    /* margin-top: 65px; */
+    margin-top: 65px; 
     border-radius: 10px;
     text-align: center;
     padding: 20px;
@@ -47,4 +47,8 @@ h3 {
     padding: 10px;
     border-radius: 8px;
     /* font-size: 12px; */
+}
+
+.buttons:hover{
+    background-color: yellow;
 }
