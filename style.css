@@ -6,32 +6,44 @@
 
 }
 body {
-    display:flex;
+    display:flex;  
     justify-content: center;
     align-items: center;
-    background-color: black;
-    
+    background-image: url('/assets/images/favicon-32x32.png');
+    padding: auto;
+ 
 }
 
 #container {
+    display:flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+    margin: auto;
+    width: 700px;
+    
+}
+
+#content{
     display:flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(20, 20, 20);
-    margin-top: 65px; 
+    /* margin-top: 65px;  */
     border-radius: 10px;
     text-align: center;
     padding: 20px;
     color: white;
+    flex-direction: column;
 }
 
-img {
+#content img {
     border-radius: 100px;
     width: 80px;
     height: 80px;
 }
 
-h1 {
+h1 { 
     font-size: 20px;
     margin-bottom: 0px;
 }
