@@ -15,12 +15,12 @@ body {
 }
 
 #container {
-    display:flex; 
+    display:flex;
     justify-content: center;
     align-items: center; 
     background-color: black;
     margin: auto;
-    width: 700px;
+    width: 1200px;
     
 }
 
@@ -29,12 +29,14 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(20, 20, 20);
-    /* margin-top: 65px;  */
+    margin-top: 50px; 
+    margin-bottom: 50px; 
     border-radius: 10px;
     text-align: center;
     padding: 20px;
     color: white;
     flex-direction: column;
+    height: fit-content;
 }
 
 #content img {
@@ -58,6 +60,7 @@ h3 {
     background-color: rgb(40, 40, 40);
     padding: 10px;
     border-radius: 8px;
+    width: 250px;
     /* font-size: 12px; */
 }
 
